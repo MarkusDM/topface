@@ -1,0 +1,344 @@
+.main-catalog {
+    position: relative;
+    padding-top: 7.2rem;
+    &::before {
+        position: absolute;
+        content:'';
+        width: 110rem;
+        height: 107rem;
+        background: #FBFBFB;
+        border-radius: 50%;
+        top: -20rem;
+        z-index: -1;
+        left: 50%;
+        transform: translate(-50%);
+
+    }
+    .container {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__right {
+        width: 58.2rem;
+    }
+
+    &__right-swiper {
+        width: 58rem;
+    }
+
+    &__left-swiper {
+        width: 58rem;
+    }
+
+    &__right-text {
+        font-family: 'Druk Wide Cyr';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.8rem;
+        line-height: 2.2rem;
+        display: block;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+        color: #453C3C;
+        margin-bottom: 13.1rem;
+        padding-left: 3.7rem;
+    }
+
+    &__right-block {
+        width: 58.2rem;
+        height: 31.8rem;
+        background: linear-gradient(0deg, rgba(206, 203, 208, 0.4), rgba(206, 203, 208, 0.4)), #EEEDEF;
+        border-bottom-right-radius: 100rem;
+        border-top-right-radius: 100rem;
+        padding-top: 2.7rem;
+        padding-bottom: 2.7rem;
+        padding-left: 2.7rem;
+        
+    }
+
+    &__right-content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 58rem;
+        padding-right: 4.9rem;
+    }
+
+    &__right-content-text {
+        font-family: 'Druk Wide Cyr';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.8rem;
+        line-height: 2.2rem;
+        color: #453C3C;
+        position: relative;
+        padding-right: 3.2rem;
+        span {
+            position: absolute;
+            font-family: 'Druk Wide Cyr';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 1.5rem;
+            line-height: 1.8rem;
+            color: #A29E9E;
+            right: 0;
+            top: -0.6rem;
+
+        }
+    }
+
+    &__right-block-image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 26.4rem;
+        height: 26.4rem;
+        border-radius: 50%;
+        background: #fff;
+        
+    }
+
+    &__right-image {
+        width: 14.3rem;
+        height: 16rem;
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    &__center {
+        width: 41.2rem;
+    }
+
+    &__center-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    &__center-best {
+        background: #EEEDEF;
+        border: 0.1rem solid #FFFFFF;
+        border-radius: 100rem;
+        width: 14.8rem;
+        height: 3.7rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 2;
+        margin-bottom: 7.2rem;
+        span {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 1.5rem;
+            line-height: 2.3rem;
+            text-align: center;
+            letter-spacing: 0.09em;
+            text-transform: uppercase;
+            color: rgba(69, 60, 60, 0.4);
+            position: relative;
+            padding-left: 2.4rem;
+            &::before {
+                position: absolute;
+                content:'';
+                width: 1.6rem;
+                height: 1.6rem;
+                background-image: url(../img/icon/greystart.svg);
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+                left: 0;
+                top: 0.3rem;
+            }
+
+        }
+    }
+
+    &__bg {
+        display: none;
+    }
+
+
+    &__center-image-block {
+        width: 41.2rem;
+        height: 43.2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 6.8rem;
+    }
+
+    &__center-image {
+        width: 100%;
+        height: 100%;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    }
+
+    &__center-title {
+        display: flex;
+        flex-direction: column;
+
+        strong {
+            font-family: 'Druk Wide Cyr';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 3rem;
+            line-height: 3.6rem;
+            text-align: center;
+            letter-spacing: 0.02em;
+            text-transform: uppercase;
+            margin-bottom: 0.7rem;
+            color: #453C3C;
+        }
+
+        span {
+            display: block;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 1.8rem;
+            line-height: 2.8rem;
+            text-align: center;
+            letter-spacing: 0.02em;
+            color: rgba(69, 60, 60, 0.5);
+        }
+    }
+
+
+
+
+
+
+    &__left {
+        width: 58.2rem;
+    }
+
+   
+
+
+    &__left-text {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.8rem;
+        line-height: 2.8rem;
+        letter-spacing: 0.02em;
+        color: rgba(69, 60, 60, 0.5);
+        margin-bottom: 13.1rem;
+        padding-right: 3.7rem;
+        text-align: right;
+    }
+
+    &__left-block {
+        width: 58.2rem;
+        height: 31.8rem;
+        background: linear-gradient(0deg, rgba(206, 203, 208, 0.4), rgba(206, 203, 208, 0.4)), #EEEDEF;
+        border-bottom-left-radius: 100rem;
+        border-top-left-radius: 100rem;
+        padding-top: 2.7rem;
+        padding-bottom: 2.7rem;
+        padding-left: 2.7rem;
+    }
+
+    &__left-content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 58rem;
+        padding-right: 9.9rem;
+    }
+
+    &__left-content-text {
+        font-family: 'Druk Wide Cyr';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.8rem;
+        line-height: 2.2rem;
+        color: #453C3C;
+        position: relative;
+        padding-right: 3.2rem;
+        span {
+            position: absolute;
+            font-family: 'Druk Wide Cyr';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 1.5rem;
+            line-height: 1.8rem;
+            color: #A29E9E;
+            right: 0;
+            top: -0.6rem;
+        }
+    }
+
+    &__left-block-image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 26.4rem;
+        height: 26.4rem;
+        border-radius: 50%;
+        background: #fff;
+        
+    }
+
+    &__left-image {
+        width: 14.3rem;
+        height: 16rem;
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    &__scroll {
+        display: flex;
+        align-items: center;
+    }
+
+
+    &__scroll-circle {
+        width: 3.3rem;
+        height: 5.1rem;
+        background: #453C3C;
+        border-radius: 100rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 1.9rem;
+
+        img {
+            width: 1rem;
+            height: 2rem;
+        }
+    }
+
+    &__scroll-text {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.8rem;
+        line-height: 2.8rem;
+        color: #453C3C;
+
+    }
+
+
+    &__wrapper-pagination {
+        padding-left: 4.1rem;
+        padding-right: 1.8rem;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin-top: -2rem;
+    }
+
+    
+}

@@ -1,0 +1,58 @@
+.new {
+    padding-top: 16.2rem;
+    .container {
+        width: 184.4rem;
+    }
+
+    .title {
+        margin-bottom: 5.5rem;
+        padding-left: 3rem;
+    }
+
+    &__swiper {
+        padding-top: 2rem;
+    }
+
+    &__slide {
+        position: relative;
+        min-height: 60.1rem;
+        max-height: 60.1rem;
+        max-width: 44.6rem;
+        padding-top: 1.8rem;
+    }
+
+    &__circle {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 8.2rem;
+        height: 8.2rem;
+        border-radius: 50%;
+        background: #F4A695;
+        position: absolute;
+        z-index: 2;
+        top: -1.8rem;
+        right: 4rem;
+        span {
+            font-family: 'Druk Wide Cyr';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 1.5rem;
+            line-height: 1.8rem;
+            text-align: center;
+            letter-spacing: 0.02em;
+            color: #FFFFFF;
+        }
+    }
+
+  
+    &__block {
+        display: flex;
+        justify-content: center;
+        margin-top: 4rem;
+    }
+
+    &__none-pag {
+        display: none;
+    }
+}

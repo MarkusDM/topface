@@ -1,0 +1,43 @@
+.categories {
+    padding-top: 18.2rem;
+    
+    .container {
+        width: 184.4rem;
+    }
+    .title {
+        width: 39.6rem;
+        align-items: center;
+        margin: 0 auto;
+        span {
+            padding-bottom: 2.6rem;
+            margin-bottom: 1.6rem;
+            &::before {
+                left: -10rem;
+            }
+        }
+    }
+
+    &__slide {
+        margin-right: 1.8rem;
+    }
+
+    &__pagination {
+        display: none;
+    }
+
+    &__slide:last-child {
+        margin-right: 0;
+    }
+
+    &__wrapper {
+        margin-top: 5.4rem;
+        display: flex;
+        .merchandise {
+            
+        }
+
+        .merchandise:last-child {
+            margin-right: 0;
+        }
+    }
+}

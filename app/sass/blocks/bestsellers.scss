@@ -1,0 +1,70 @@
+.bestsellers  {
+    .container {
+        width: 184rem;
+    }
+
+    .title {
+        margin-bottom: 4.5rem;
+        padding-left: 3rem;
+    }
+
+    &__slide {
+        position: relative;
+        min-height: 56.1rem;
+        max-height: 56.1rem;
+        max-width: 44.6rem;
+        padding-top: 1.8rem;
+    }
+
+    &__product {
+        background: #EEEDEF;
+        border: 0.1rem solid #FFFFFF;
+        border-radius: 100rem;
+        width: 14.8rem;
+        height: 3.7rem;
+        left: 50%;
+        transform: translate(-50%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 0rem;
+        position: absolute;
+        z-index: 2;
+        span {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 1.5rem;
+            line-height: 2.3rem;
+            text-align: center;
+            letter-spacing: 0.09em;
+            text-transform: uppercase;
+            color: rgba(69, 60, 60, 0.4);
+            position: relative;
+            padding-left: 2.4rem;
+            &::before {
+                position: absolute;
+                content:'';
+                width: 1.6rem;
+                height: 1.6rem;
+                background-image: url(../img/icon/greystart.svg);
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+                left: 0;
+                top: 0.3rem;
+            }
+
+        }
+    }
+
+    &__block {
+        display: flex;
+        justify-content: center;
+        margin-top: 6rem;
+    }
+
+    &__pagination-none {
+        display: none;
+    }
+
+   
+}

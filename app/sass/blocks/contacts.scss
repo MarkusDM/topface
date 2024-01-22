@@ -1,0 +1,121 @@
+.contacts {
+    padding-top: 6.8rem;
+    padding-bottom: 14.1rem;
+    .container {
+        width: 100%;
+    }
+
+    .title {
+        padding-top: 3rem;
+        padding-bottom: 4rem;
+        border-top: 1px solid rgba(69, 60, 60, 0.2);
+        border-bottom: 1px solid rgba(69, 60, 60, 0.2);
+        padding-left: 3.8rem;
+        text-align: left;
+        display: block;
+        margin-bottom: 7.5rem;
+        strong {
+            text-align: left;
+            font-size: 5.9rem;
+        }
+    }
+
+    &__wrapper {
+        display: flex;
+        padding-left: 3.2rem;
+    }
+
+    &__image {
+        width: 20.2rem;
+        height: 20.2rem;
+        display: block;
+        margin-right: 8.3rem;
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    &__wrap {
+        margin-bottom: 9.8rem;
+        width: 86.7rem;
+    }
+
+    &__wrap:last-child {
+        margin-bottom: 0;
+        padding-top: 8.8rem;
+        border-top: 1px solid rgba(69, 60, 60, 0.2);
+    }
+
+    &__title {
+        font-family: "Druk Wide Cyr";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.8rem;
+        line-height: 267%;
+        margin-bottom: 2rem;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+        color: #9a9596;
+    }
+
+    &__inner {
+        display: flex;
+        padding-right: 4rem;
+    }
+
+    &__inner-block {
+        display: flex;
+        flex-direction: column;
+
+        span {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 1.8rem;
+            line-height: 2.8rem;
+            letter-spacing: 0.02em;
+            display: block;
+            margin-bottom: 0.6rem;
+            color: rgba(69, 60, 60, 0.5);
+        }
+
+        strong {
+            font-family: "Druk Wide Cyr";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 1.5rem;
+            line-height: 1.8rem;
+            letter-spacing: 0.02em;
+            color: #453c3c;
+            display: block;
+            width: 29rem;
+        }
+    }
+
+    &__inner-bloc:first-child {
+        margin-right: 4.1rem;
+    }
+
+  
+
+  
+
+   &__image-block {
+        width: 63rem;
+        height: 64rem;
+        border-radius: 10rem;
+        margin-left: 2rem;
+        img {
+            width: 100%;
+            height: 100%;
+            border-radius: 10rem;
+            border: 8px solid #fff;
+        }
+   }
+
+   
+
+  
+
+  
+}

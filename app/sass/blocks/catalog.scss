@@ -1,0 +1,131 @@
+.catalog {
+    padding-top: 25rem;
+    padding-bottom: 14.1rem;
+    .container {
+        width: 184.4rem;
+    }
+
+    .title {
+        margin-bottom: 11.4rem;
+
+        strong {
+            font-size: 3rem;
+            line-height: 263%;
+            
+        }
+    }
+
+  
+
+    &__btns {
+      
+       justify-content: center;
+       margin-bottom: 6.1rem;
+       display: none;
+    }
+
+
+    &__block {
+        display: none;
+    }
+
+    &__btn {
+        width: 22.9rem;
+        height: 5.4rem;
+        border: 0.1rem solid rgba(69, 60, 60, 0.2);
+        border-radius: 100rem;
+        display: block;
+        position: relative;
+        padding-top: 1.2rem;
+        padding-bottom: 1.4rem;
+        padding-left: 2rem;
+        &::before {
+            position: absolute;
+            content:'';
+            width: 4rem;
+            top: 0.7rem;
+            right: 0.7rem;
+            height: 4rem;
+            background: #FFFFFF;
+            border-radius: 50%;
+            background-image: url(../img/icon/downarrowblack.svg);
+            background-repeat: no-repeat;
+            background-position: 50% 50%;
+            background-size: 1rem 1rem;
+        }
+        span {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 1.8rem;
+            line-height: 2.8rem;
+            position: relative;
+            color: #453C3C;
+            width: 100%;
+            display: inline-block;
+         
+        }
+    }
+
+    &__btn:first-child {
+        margin-right: 1rem;
+    }
+
+    &__wrapper {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+   
+
+
+
+    &__product {
+        position: relative;
+        min-height: 60.1rem;
+        max-height: 60.1rem;
+        max-width: 44.6rem;
+        padding-top: 1.8rem;
+        margin-right: 2rem;
+        margin-bottom: 0rem;
+    }
+    &__product:nth-child(4n) {
+        margin-right: 0;
+    }
+
+    &__product-eco {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 8.2rem;
+        height: 8.2rem;
+        border-radius: 50%;
+        position: absolute;
+        z-index: 2;
+        top: -1.8rem;
+        right: 4rem;
+    }
+
+    &__product-new {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 8.2rem;
+        height: 8.2rem;
+        border-radius: 50%;
+        background: #F4A695;
+        position: absolute;
+        z-index: 2;
+        top: -1.8rem;
+        right: 4rem;
+        span {
+            font-family: 'Druk Wide Cyr';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 1.5rem;
+            line-height: 1.8rem;
+            text-align: center;
+            letter-spacing: 0.02em;
+            color: #FFFFFF;
+        }
+    }
+}

@@ -1,0 +1,273 @@
+.pagination {
+	width: 41rem;
+	position: relative;
+	&__arrows {
+		display: flex;
+		position: relative;
+		z-index: 3;
+	}
+
+
+	&__next {
+		width: 19.1rem;
+		height: 5.4rem;
+		border: 0.1rem solid rgba(69, 60, 60, 0.1);
+		border-radius: 100rem;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		cursor: pointer;
+		position: relative;
+		&:hover {
+			&::before {
+				transform: translateX(0.2rem);
+				transition: transform .5s ease;
+			}
+			
+		  
+	  	}
+		span {
+			font-family: 'Sofia Pro';
+			font-style: normal;
+			font-weight: 500;
+			font-size: 1.8rem;
+			line-height: 2.8rem;
+			text-align: center;
+			color: #453C3C;
+		}
+
+		&::before {
+			position: absolute;
+			content:'';
+			width: 2.1rem;
+			height: 1rem;
+			background-repeat: no-repeat;
+			background-size: 100% 100%;
+			background-image: url(../img/icon/nextblack.svg);
+			left: 2rem;
+			top: 2.2rem;
+			transition: transform .5s ease;
+		}
+
+
+		
+	
+
+	
+	}
+
+	&__prev {
+		width: 19.1rem;
+		height: 5.4rem;
+		border: 0.1rem solid rgba(69, 60, 60, 0.1);
+		border-radius: 100rem;
+		margin-right: 1.2rem;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		cursor: pointer;
+		position: relative;
+		&:hover {
+			&::before {
+				transform: translateX(0.2rem);
+				transition: transform .5s ease;
+			}
+			
+		  
+	  	}
+		span {
+			font-family: 'Sofia Pro';
+			font-style: normal;
+			font-weight: 500;
+			font-size: 1.8rem;
+			line-height: 2.8rem;
+			text-align: center;
+			color: #453C3C;
+		}
+
+
+		&::before {
+			position: absolute;
+			content:'';
+			width: 2.1rem;
+			height: 1rem;
+			background-repeat: no-repeat;
+			background-size: 100% 100%;
+			background-image: url(../img/icon/prevblack.svg);
+			right: 2rem;
+			top: 2.2rem;
+			transition: transform .5s ease;
+		}
+	}
+
+	&__fraction {
+		position: absolute;
+		justify-content: space-between;
+		font-size: 0;
+		top: 0.7rem;
+		display: flex;
+		.swiper-pagination-current,
+		.swiper-pagination-total  {
+			width: 4rem;
+			height: 4rem;
+			background: #FFFFFF;
+			border-radius: 50%;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			font-style: normal;
+			font-weight: 500;
+			font-size: 1.8rem;
+			line-height: 2.8rem;
+			text-align: center;
+			letter-spacing: 0.05em;
+			text-transform: uppercase;
+			color: #453C3C;
+		}
+
+
+		.swiper-pagination-current {
+			position: relative;
+			left: 0.7rem;
+		}
+
+		.swiper-pagination-total {
+			right: 2.5rem;
+			position: relative;
+		}
+
+	}
+
+	
+}
+
+
+.title {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	strong {
+		font-family: 'Druk Wide Cyr';
+		font-style: normal;
+		font-weight: 500;
+		font-size: 6rem;
+		line-height: 132% ;
+		text-align: center;
+		letter-spacing: 0.04em;
+		text-transform: uppercase;
+		color: #453C3C;
+		display: block;
+	}
+
+	span {
+		font-family: 'Druk Wide Cyr';
+		font-style: normal;
+		font-weight: 500;
+		font-size: 1.8rem;
+		text-align: center;
+		letter-spacing: 0.02em;
+		text-transform: uppercase;
+		color: #AAA6A8;
+		text-align: center;
+		position: relative;
+		display: block;
+		padding-bottom: 3.8rem;
+		margin-bottom: 1.9rem;
+		
+		&::before {
+			position: absolute;
+			content: '';
+			width: 39.6rem;
+			height: 0.1rem;
+			background: #DFDEDF;
+			bottom: 0;
+			
+		}
+	}
+
+}
+
+
+.test {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 10rem;
+
+	a {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-size: 3.2rem;
+		padding: 2rem;
+		border-radius: 100rem;
+		background: pink;
+		color: #fff;
+		margin-bottom: 4rem;
+	}
+}
+
+
+.button-all {
+	width: 22.9rem;
+	height: 5.4rem;
+	border: 0.1rem solid rgba(69, 60, 60, 0.2);
+	border-radius: 100rem;
+	display: block;
+	position: relative;
+	padding-top: 1.2rem;
+	padding-bottom: 1.4rem;
+	padding-left: 2rem;
+	&:hover {
+		
+
+		span {
+			&::before {
+				transform: translateX(0.2rem);
+				transition: transform .5s ease;
+			}
+		}
+		
+	  
+	}
+	&::before {
+		position: absolute;
+		content:'';
+		width: 4rem;
+		top: 0.7rem;
+		right: 0.7rem;
+		height: 4rem;
+		background: #FFFFFF;
+		border-radius: 50%;
+	}
+	span {
+		font-style: normal;
+		font-weight: 500;
+		font-size: 1.8rem;
+		line-height: 2.8rem;
+		position: relative;
+		color: #453C3C;
+		width: 100%;
+		display: inline-block;
+	
+		&::before {
+			position: absolute;
+			content:'';
+			width: 2.1rem;
+			right: 3.2rem;
+			top: 1rem;
+			height: 1rem;
+			background-image: url(../img/icon/nextblack.svg);
+			background-repeat: no-repeat;
+			background-size: 100% 100%;
+			transition: transform .5s ease;
+		}
+	}
+}
+
+
+
+
+
+

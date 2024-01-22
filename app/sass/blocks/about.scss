@@ -1,0 +1,317 @@
+.about {
+    position: relative;
+    padding-top: 6rem;
+    padding-bottom: 16.6rem;
+    &::before {
+        position: absolute;
+        content: '';
+        width: 101.2rem;
+        height: 76.8rem;
+        background-image: url(../img/lists.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        z-index: -1;
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    &::after {
+        position: absolute;
+        content: '';
+        width: 100%;
+        height: 7.9rem;
+        background-image: url(../img/Bogeniaabout.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        z-index: 0;
+        top: 40rem;
+    }
+
+    &__scroll {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        left: 50%;
+        transform: translate(-49.5%);
+        top: 119%;
+        cursor: pointer;
+    }
+
+    &__scroll-circle {
+        width: 3.7rem;
+        height: 5.5rem;
+        background: #453C3C;
+        border-radius: 100rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 5.2rem;
+        img {
+            width: 2rem;
+            height: 2rem;
+        }
+    }
+
+    &__scroll-text {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.8rem;
+        line-height: 2.8rem;
+        text-align: center;
+        color: #453C3C;
+    }
+
+    &__bg {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        z-index: -1;
+        top: 0;
+    }
+
+
+    &__right-block-circle {
+        width: 5.7rem;
+        height: 5.7rem;
+        position: absolute;
+        right: 0;
+        bottom: 0.5rem
+    }
+
+    .container {
+        width: 100%;
+        padding-left: 3.8rem;
+        padding-right: 3.8rem;
+        position: relative;
+        z-index: 3;
+    }
+
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__left {
+       display: flex;
+       justify-content: space-between;
+    }
+
+    &__center {
+        margin: 0 auto;
+        position: relative;
+        top: -8rem;
+      
+    
+        
+    }
+
+    &__right {
+        display: flex;
+        justify-content: space-between;
+        margin-top: -19rem;
+      
+    }
+
+    &__video {
+        width: 33.6rem;
+        height: 19.5rem;
+        border-radius: 3.5rem;
+        position: relative;
+        display: block;
+        
+    }
+
+    &__video-play {
+        width: 5.4rem;
+        height: 5.4rem;
+        border-radius: 50%;
+        background: #FFFFFF;
+        cursor: pointer;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 1.1rem;
+        left: 1rem;
+        img {
+            width: 1.4rem;
+            height: 1.4rem;
+            display: block;
+        }
+    }
+
+
+    &__text {
+        margin-top: 4.5rem;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 1.8rem;
+        line-height: 144%;
+        letter-spacing: 0.02em;
+        width: 42rem;
+        color: #453C3C;
+
+        span {
+            font-weight: 700;
+        }
+
+    }
+
+    &__circle {
+        width: 48.8rem;
+        height: 50.5rem;
+        position: relative;
+        display: block;
+        display: flex;
+    }
+
+    &__circle-left {
+        width: 25.3rem;
+        height: 50.5rem;
+        top: 0;
+        background: #E3B9BB;
+        border-radius: 100% 0 0 100% / 50% 0 0 50%;
+        position: absolute;
+       
+        left: 0;
+        
+    }
+
+    &__circle-left-text {
+        font-family: 'Druk Wide Cyr',sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.8rem;
+        line-height: 2.2rem;
+        color: #FFFFFF;
+        position: absolute;
+        right: 5rem;
+        top: 0rem;
+        z-index: 3;
+       
+    }
+
+    &__right-socials {
+        height: 11.18rem;
+        width: 5.8rem;
+        background: #FFFFFF;
+        border-radius: 100rem;
+        padding-top: 0.6rem;
+        padding-bottom: 0.6rem;
+        padding-left: 0.4rem;
+        padding-right: 0.4rem;
+        margin-left: auto;
+        margin-top: 3rem;
+        a {
+            display: block;
+            width: 4.7rem;
+            height: 4.7rem;
+            margin-bottom: 0.4rem;
+        }
+
+        a:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    &__circle-left-block-text {
+        position: relative;
+    }
+
+    .letter {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 14.2rem;
+        height: 25rem;
+        display: inline-block;
+        text-align: center;
+        vertical-align: top;
+        transform-origin: bottom;
+    }
+
+    &__circle-right {
+        width: 43.9rem;
+        height: 44rem;
+        border-radius: 50%;
+        background: #E3B9BB;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 50%;
+        transform: translate(0,-50%);
+        
+        right: 0;
+    }
+
+    &__circle-right-image {
+        position: relative;
+        z-index: 4;
+    }
+
+
+    &__right-block {
+        margin-top: auto;
+        display: block;
+        width: 39.6rem;
+        height: 19.3rem;
+    }
+
+ 
+
+
+    &__right-block-content {
+        width: 39.6rem;
+        height: 19.3rem;
+        position: relative;
+        border-radius: 3.5rem;
+        padding-top: 3.6rem;
+        padding-left: 3.7rem;
+        background-image: url(../img/about/bg.svg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+
+    &__right-block-image {
+        width: 11.3rem;
+        height: 11.3rem;
+        position: absolute;
+        right: 0;
+        top: -4rem;
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    &__right-block-text {
+        display: flex;
+        flex-direction: column;
+        width: 27.1rem;
+
+        strong {
+            font-family: 'Druk Wide Cyr';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 1.8rem;
+            line-height: 2.2rem;
+            letter-spacing: 0.02em;
+            color: #453C3C;
+            display: block;
+            margin-bottom: 1.9rem;
+        }
+
+        span {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 1.8rem;
+            line-height: 139% ;
+            letter-spacing: 0.02em;
+            color: #A09C9C;
+        }
+    }
+
+   
+}
