@@ -70,7 +70,7 @@
 
     &__number,
     &__date {
-        font-family: 'Sofia Pro';
+        font-family: 'Sofia Pro',sans-serif;
         font-style: normal;
         font-weight: 400;
         font-size: 1.8rem;
@@ -167,18 +167,18 @@
         }
         span {
             font-style: normal;
-            font-weight: 500;
+            font-weight: 600;
             font-size: 1.8rem;
             line-height: 2.8rem;
             position: relative;
             color: #453C3C;
-            padding-right: 4.1rem;
+            padding-right: 3.1rem;
             &::before {
                 position: absolute;
                 content:'';
                 width: 2.1rem;
                 right: 0;
-                top: 1rem;
+                top: 0.7rem;
                 height: 1rem;
                 background-image: url(../img/icon/nextblack.svg);
                 background-repeat: no-repeat;

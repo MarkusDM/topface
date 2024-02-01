@@ -113,29 +113,4 @@ $('.header__inner-search-close').on('click', function() {
 
 
 
-var text = $('.about__circle-left-text').html();
-var textLen = text.length;
-
-wrapLettersInSpan(text);
-addTransformCss();
-
-
-
-function wrapLettersInSpan(text) {
-  var arr = text.split('');
-  for (var i = 0; i < textLen; i++) {
-    arr[i] = "<span class='letter'>" + arr[i] + "</span>";
-  }
-  $('.about__circle-left-text').html(arr.join(''));
-}
-
-function addTransformCss() {
-  var transformStart = 70;
-  var transformStep = 165 / (textLen - 56);
-
-  $('.letter').each(function(i, elem) {
-    $(elem).css({transform: 'rotate(' + transformStart + 'deg)'});
-    transformStart += transformStep;
-  });
-}
 

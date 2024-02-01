@@ -308,118 +308,6 @@ template {
   display: none; }
 
 @font-face {
-  font-family: 'Sofia Pro Semi';
-  src: url("SofiaProSemiBold.eot");
-  src: local("Sofia Pro Semi Bold"), local("SofiaProSemiBold"), url("../fonts/SofiaProSemiBold.eot") format("embedded-opentype"), url("../fonts/SofiaProSemiBold.woff2") format("woff2"), url("../fonts/SofiaProSemiBold.woff") format("woff"), url("../fonts/SofiaProSemiBold.ttf") format("truetype");
-  font-weight: 600;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'Sofia Pro';
-  src: url("SofiaProRegular-Italic.eot");
-  src: local("Sofia Pro Regular Italic"), local("SofiaProRegular-Italic"), url("../fonts/SofiaProRegular-Italic.eot") format("embedded-opentype"), url("../fonts/SofiaProRegular-Italic.woff2") format("woff2"), url("../fonts/SofiaProRegular-Italic.woff") format("woff"), url("../fonts/SofiaProRegular-Italic.ttf") format("truetype");
-  font-weight: normal;
-  font-style: italic; }
-
-@font-face {
-  font-family: 'Sofia Pro Semi';
-  src: url("SofiaProSemiBold-Italic.eot");
-  src: local("Sofia Pro Semi Bold Italic"), local("SofiaProSemiBold-Italic"), url("../fonts/SofiaProSemiBold-Italic.eot") format("embedded-opentype"), url("../fonts/SofiaProSemiBold-Italic.woff2") format("woff2"), url("../fonts/SofiaProSemiBold-Italic.woff") format("woff"), url("../fonts/SofiaProSemiBold-Italic.ttf") format("truetype");
-  font-weight: 600;
-  font-style: italic; }
-
-@font-face {
-  font-family: 'Sofia Pro';
-  src: url("SofiaProLight.eot");
-  src: local("Sofia Pro Light"), local("SofiaProLight"), url("../fonts/SofiaProLight.eot") format("embedded-opentype"), url("../fonts/SofiaProLight.woff2") format("woff2"), url("../fonts/SofiaProLight.woff") format("woff"), url("../fonts/SofiaProLight.ttf") format("truetype");
-  font-weight: 300;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'Sofia Pro';
-  src: url("SofiaProExtraLight.eot");
-  src: local("Sofia Pro ExtraLight"), local("SofiaProExtraLight"), url("../fonts/SofiaProExtraLight.eot") format("embedded-opentype"), url("../fonts/SofiaProExtraLight.woff2") format("woff2"), url("../fonts/SofiaProExtraLight.woff") format("woff"), url("../fonts/SofiaProExtraLight.ttf") format("truetype");
-  font-weight: 200;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'Sofia Pro';
-  src: url("SofiaProMedium-Italic.eot");
-  src: local("Sofia Pro Medium Italic"), local("SofiaProMedium-Italic"), url("../fonts/SofiaProMedium-Italic.eot") format("embedded-opentype"), url("../fonts/SofiaProMedium-Italic.woff2") format("woff2"), url("../fonts/SofiaProMedium-Italic.woff") format("woff"), url("../fonts/SofiaProMedium-Italic.ttf") format("truetype");
-  font-weight: 500;
-  font-style: italic; }
-
-@font-face {
-  font-family: 'Sofia Pro';
-  src: url("SofiaProUltraLight-Italic.eot");
-  src: local("Sofia Pro UltraLight Italic"), local("SofiaProUltraLight-Italic"), url("../fonts/SofiaProUltraLight-Italic.eot") format("embedded-opentype"), url("../fonts/SofiaProUltraLight-Italic.woff2") format("woff2"), url("../fonts/SofiaProUltraLight-Italic.woff") format("woff"), url("../fonts/SofiaProUltraLight-Italic.ttf") format("truetype");
-  font-weight: 200;
-  font-style: italic; }
-
-@font-face {
-  font-family: 'Sofia Pro';
-  src: url("SofiaProRegular.eot");
-  src: local("Sofia Pro Regular"), local("SofiaProRegular"), url("../fonts/SofiaProRegular.eot") format("embedded-opentype"), url("../fonts/SofiaProRegular.woff2") format("woff2"), url("../fonts/SofiaProRegular.woff") format("woff"), url("../fonts/SofiaProRegular.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'Sofia Pro';
-  src: url("SofiaProMedium.eot");
-  src: local("Sofia Pro Medium"), local("SofiaProMedium"), url("../fonts/SofiaProMedium.eot") format("embedded-opentype"), url("../fonts/SofiaProMedium.woff2") format("woff2"), url("../fonts/SofiaProMedium.woff") format("woff"), url("../fonts/SofiaProMedium.ttf") format("truetype");
-  font-weight: 500;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'Sofia Pro';
-  src: url("SofiaProBold.eot");
-  src: local("Sofia Pro Bold"), local("SofiaProBold"), url("../fonts/SofiaProBold.eot") format("embedded-opentype"), url("../fonts/SofiaProBold.woff2") format("woff2"), url("../fonts/SofiaProBold.woff") format("woff"), url("../fonts/SofiaProBold.ttf") format("truetype");
-  font-weight: bold;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'Sofia Pro';
-  src: url("SofiaProExtraLight-Italic.eot");
-  src: local("Sofia Pro ExtraLight Italic"), local("SofiaProExtraLight-Italic"), url("../fonts/SofiaProExtraLight-Italic.eot") format("embedded-opentype"), url("../fonts/SofiaProExtraLight-Italic.woff2") format("woff2"), url("../fonts/SofiaProExtraLight-Italic.woff") format("woff"), url("../fonts/SofiaProExtraLight-Italic.ttf") format("truetype");
-  font-weight: 200;
-  font-style: italic; }
-
-@font-face {
-  font-family: 'Sofia Pro';
-  src: url("SofiaProLight-Italic.eot");
-  src: local("Sofia Pro Light Italic"), local("SofiaProLight-Italic"), url("../fonts/SofiaProLight-Italic.eot") format("embedded-opentype"), url("../fonts/SofiaProLight-Italic.woff2") format("woff2"), url("../fonts/SofiaProLight-Italic.woff") format("woff"), url("../fonts/SofiaProLight-Italic.ttf") format("truetype");
-  font-weight: 300;
-  font-style: italic; }
-
-@font-face {
-  font-family: 'Sofia Pro';
-  src: url("SofiaProBlack-Italic.eot");
-  src: local("Sofia Pro Black Italic"), local("SofiaProBlack-Italic"), url("../fonts/SofiaProBlack-Italic.eot") format("embedded-opentype"), url("../fonts/SofiaProBlack-Italic.woff2") format("woff2"), url("../fonts/SofiaProBlack-Italic.woff") format("woff"), url("../fonts/SofiaProBlack-Italic.ttf") format("truetype");
-  font-weight: 900;
-  font-style: italic; }
-
-@font-face {
-  font-family: 'Sofia Pro';
-  src: url("SofiaProBlack.eot");
-  src: local("Sofia Pro Black"), local("SofiaProBlack"), url("../fonts/SofiaProBlack.eot") format("embedded-opentype"), url("../fonts/SofiaProBlack.woff2") format("woff2"), url("../fonts/SofiaProBlack.woff") format("woff"), url("../fonts/SofiaProBlack.ttf") format("truetype");
-  font-weight: 900;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'Sofia Pro';
-  src: url("SofiaProUltraLight.eot");
-  src: local("Sofia Pro UltraLight"), local("SofiaProUltraLight"), url("../fonts/SofiaProUltraLight.eot") format("embedded-opentype"), url("../fonts/SofiaProUltraLight.woff2") format("woff2"), url("../fonts/SofiaProUltraLight.woff") format("woff"), url("../fonts/SofiaProUltraLight.ttf") format("truetype");
-  font-weight: 200;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'Sofia Pro';
-  src: url("SofiaProBold-Italic.eot");
-  src: local("Sofia Pro Bold Italic"), local("SofiaProBold-Italic"), url("../fonts/SofiaProBold-Italic.eot") format("embedded-opentype"), url("../fonts/SofiaProBold-Italic.woff2") format("woff2"), url("../fonts/SofiaProBold-Italic.woff") format("woff"), url("../fonts/SofiaProBold-Italic.ttf") format("truetype");
-  font-weight: bold;
-  font-style: italic; }
-
-@font-face {
   font-family: 'Druk Cyr';
   src: local("Druk Cyr Heavy"), local("DrukCyr-Heavy"), url("../fonts/Druk-Wide-Cyr-Bold.woff2") format("woff2"), url("../fonts/Druk-Wide-Cyr-Bold.woff") format("woff");
   font-weight: 900;
@@ -438,7 +326,7 @@ template {
           box-sizing: border-box; }
 
 html {
-  font-family: 'Sofia Pro', sans-serif;
+  font-family: 'Sofia Pro',sans-serif;
   font-weight: normal;
   font-style: normal;
   font-size: 0.520835vw;
@@ -448,7 +336,7 @@ html {
   padding: 0; }
 
 body {
-  font-family: 'Sofia Pro', sans-serif;
+  font-family: 'Sofia Pro',sans-serif;
   font-weight: normal;
   font-style: normal;
   -webkit-animation: bugfix infinite 1s;
@@ -610,9 +498,9 @@ input[type="number"] {
       transition: transform .5s ease;
       transition: transform .5s ease, -webkit-transform .5s ease; }
     .pagination__next span {
-      font-family: 'Sofia Pro';
+      font-family: 'Sofia Pro',sans-serif;
       font-style: normal;
-      font-weight: 500;
+      font-weight: 600;
       font-size: 1.8rem;
       line-height: 2.8rem;
       text-align: center;
@@ -656,9 +544,9 @@ input[type="number"] {
       transition: transform .5s ease;
       transition: transform .5s ease, -webkit-transform .5s ease; }
     .pagination__prev span {
-      font-family: 'Sofia Pro';
+      font-family: 'Sofia Pro',sans-serif;
       font-style: normal;
-      font-weight: 500;
+      font-weight: 600;
       font-size: 1.8rem;
       line-height: 2.8rem;
       text-align: center;
@@ -821,7 +709,7 @@ input[type="number"] {
     border-radius: 50%; }
   .button-all span {
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 1.8rem;
     line-height: 2.8rem;
     position: relative;
@@ -1145,7 +1033,7 @@ input[type="number"] {
     padding-left: 6rem;
     padding-top: 60.6rem; }
     .main__title span {
-      font-family: 'Sofia Pro';
+      font-family: 'Sofia Pro',sans-serif;
       font-style: normal;
       font-weight: 400;
       font-size: 3rem;
@@ -1432,12 +1320,15 @@ input[type="number"] {
     display: block; }
   .product__image-content {
     width: 100%;
-    height: 100%; }
+    height: 100%;
+    display: block; }
     .product__image-content img {
       width: 100%;
       height: 100%;
       -o-object-fit: contain;
          object-fit: contain; }
+  .product__image-content.active {
+    display: block; }
   .product__inner {
     width: 42.2rem;
     height: 8.7rem;
@@ -1487,17 +1378,23 @@ input[type="number"] {
     width: 1.58rem;
     height: 1.58rem;
     margin-right: 0.7rem;
-    border-radius: 50%; }
+    border-radius: 50%;
+    border: 0.1rem solid #fff;
+    padding: 0; }
     .product__inner-color img {
-      border-radius: 50%; }
+      border-radius: 50%;
+      width: 100%;
+      height: 100%; }
+  .product__inner-color.active {
+    border: 0.1rem solid #E2B6B6; }
   .product__inner-color:last-child {
     margin-right: 0; }
   .product__logo {
     width: 2.8rem;
     height: 2.8rem;
     margin-top: 2rem;
-    margin-left: 4rem;
-    margin-right: 3rem; }
+    margin-left: 3.5rem;
+    margin-right: 3.6rem; }
   .product__link-text {
     color: rgba(69, 60, 60, 0.5);
     text-align: center;
@@ -1507,7 +1404,7 @@ input[type="number"] {
     font-weight: 400;
     line-height: normal;
     letter-spacing: 0.36px;
-    margin-top: 1.9rem; }
+    margin-top: 2.2rem; }
   .product__link {
     width: 5.6rem;
     border-radius: 50%;
@@ -1528,6 +1425,12 @@ input[type="number"] {
     .product__link img {
       width: 2.4rem;
       height: 1rem; }
+
+.product--tabs .product__image-content {
+  display: none; }
+
+.product--tabs .product__image-content.active {
+  display: block; }
 
 .categories {
   padding-top: 18.2rem; }
@@ -1560,8 +1463,8 @@ input[type="number"] {
 
 .merchandise {
   width: 35.2rem;
-  height: 53.1rem;
-  border-radius: 100rem;
+  height: 45rem;
+  border-radius: 100rem 100rem 0 0;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1607,7 +1510,8 @@ input[type="number"] {
     font-size: 1.8rem;
     line-height: 2.8rem;
     letter-spacing: 0.02em;
-    color: rgba(255, 255, 255, 0.5); }
+    color: rgba(255, 255, 255, 0.5);
+    display: none; }
     .merchandise__circle-text span {
       display: inline-block; }
   .merchandise__text {
@@ -1823,18 +1727,18 @@ input[type="number"] {
       border-radius: 50%; }
     .day__link span {
       font-style: normal;
-      font-weight: 500;
+      font-weight: 600;
       font-size: 1.8rem;
       line-height: 2.8rem;
       position: relative;
       color: #453C3C;
-      padding-right: 4.1rem; }
+      padding-right: 3.1rem; }
       .day__link span::before {
         position: absolute;
         content: '';
         width: 2.1rem;
         right: 0;
-        top: 1rem;
+        top: 0.7rem;
         height: 1rem;
         background-image: url(../img/icon/nextblack.svg);
         background-repeat: no-repeat;
@@ -1968,7 +1872,7 @@ input[type="number"] {
     padding-right: 1.1rem;
     margin-bottom: 4.9rem; }
   .news__number, .news__date {
-    font-family: 'Sofia Pro';
+    font-family: 'Sofia Pro',sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 1.8rem;
@@ -2050,18 +1954,18 @@ input[type="number"] {
       border-radius: 50%; }
     .news__all span {
       font-style: normal;
-      font-weight: 500;
+      font-weight: 600;
       font-size: 1.8rem;
       line-height: 2.8rem;
       position: relative;
       color: #453C3C;
-      padding-right: 4.1rem; }
+      padding-right: 3.1rem; }
       .news__all span::before {
         position: absolute;
         content: '';
         width: 2.1rem;
         right: 0;
-        top: 1rem;
+        top: 0.7rem;
         height: 1rem;
         background-image: url(../img/icon/nextblack.svg);
         background-repeat: no-repeat;
@@ -2270,7 +2174,7 @@ input[type="number"] {
     background: #FFFFFF;
     border-radius: 3rem; }
   .card__top {
-    font-family: 'Sofia Pro';
+    font-family: 'Sofia Pro',sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 1.8rem;
@@ -2337,7 +2241,7 @@ input[type="number"] {
     background-color: #F2B9B2;
     border-radius: 2rem; }
   .card__select-item {
-    font-family: 'Sofia Pro';
+    font-family: 'Sofia Pro',sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 1.8rem;
@@ -2363,7 +2267,7 @@ input[type="number"] {
     background: #F2B9B2;
     margin-right: 2rem; }
   .card__table-weight {
-    font-family: 'Sofia Pro';
+    font-family: 'Sofia Pro',sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 1.5rem;
@@ -2375,7 +2279,7 @@ input[type="number"] {
     margin-bottom: 9.2rem; }
     .card__table-weight span {
       display: inline-block;
-      font-family: 'Sofia Pro';
+      font-family: 'Sofia Pro',sans-serif;
       font-style: normal;
       font-weight: 700;
       font-size: 1.8rem;
@@ -2574,15 +2478,13 @@ input[type="number"] {
     margin-bottom: 13.1rem;
     padding-left: 3.7rem; }
   .main-catalog__right-block {
-    width: 58.2rem;
+    width: 100%;
     height: 31.8rem;
     background: -webkit-gradient(linear, left bottom, left top, from(rgba(206, 203, 208, 0.4)), to(rgba(206, 203, 208, 0.4))), #EEEDEF;
     background: linear-gradient(0deg, rgba(206, 203, 208, 0.4), rgba(206, 203, 208, 0.4)), #EEEDEF;
     border-bottom-right-radius: 100rem;
     border-top-right-radius: 100rem;
-    padding-top: 2.7rem;
-    padding-bottom: 2.7rem;
-    padding-left: 2.7rem; }
+    padding: 2.7rem; }
   .main-catalog__right-content {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2594,7 +2496,7 @@ input[type="number"] {
         -ms-flex-pack: justify;
             justify-content: space-between;
     width: 58rem;
-    padding-right: 4.9rem; }
+    padding-right: 4.7rem; }
   .main-catalog__right-content-text {
     font-family: 'Druk Wide Cyr';
     font-style: normal;
@@ -2603,7 +2505,9 @@ input[type="number"] {
     line-height: 2.2rem;
     color: #453C3C;
     position: relative;
-    padding-right: 3.2rem; }
+    max-width: 100%;
+    text-align: left;
+    padding-right: 2rem; }
     .main-catalog__right-content-text span {
       position: absolute;
       font-family: 'Druk Wide Cyr';
@@ -2613,7 +2517,7 @@ input[type="number"] {
       line-height: 1.8rem;
       color: #A29E9E;
       right: 0;
-      top: -0.6rem; }
+      top: 0rem; }
   .main-catalog__right-block-image {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2749,15 +2653,13 @@ input[type="number"] {
     padding-right: 3.7rem;
     text-align: right; }
   .main-catalog__left-block {
-    width: 58.2rem;
+    width: 100%;
     height: 31.8rem;
     background: -webkit-gradient(linear, left bottom, left top, from(rgba(206, 203, 208, 0.4)), to(rgba(206, 203, 208, 0.4))), #EEEDEF;
     background: linear-gradient(0deg, rgba(206, 203, 208, 0.4), rgba(206, 203, 208, 0.4)), #EEEDEF;
     border-bottom-left-radius: 100rem;
     border-top-left-radius: 100rem;
-    padding-top: 2.7rem;
-    padding-bottom: 2.7rem;
-    padding-left: 2.7rem; }
+    padding: 2.7rem; }
   .main-catalog__left-content {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2769,7 +2671,7 @@ input[type="number"] {
         -ms-flex-pack: justify;
             justify-content: space-between;
     width: 58rem;
-    padding-right: 9.9rem; }
+    padding-right: 4.7rem; }
   .main-catalog__left-content-text {
     font-family: 'Druk Wide Cyr';
     font-style: normal;
@@ -2778,7 +2680,9 @@ input[type="number"] {
     line-height: 2.2rem;
     color: #453C3C;
     position: relative;
-    padding-right: 3.2rem; }
+    max-width: 100%;
+    text-align: right;
+    padding-left: 2rem; }
     .main-catalog__left-content-text span {
       position: absolute;
       font-family: 'Druk Wide Cyr';
@@ -2787,8 +2691,8 @@ input[type="number"] {
       font-size: 1.5rem;
       line-height: 1.8rem;
       color: #A29E9E;
-      right: 0;
-      top: -0.6rem; }
+      left: 0;
+      top: 0rem; }
   .main-catalog__left-block-image {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -4865,11 +4769,8 @@ input[type="number"] {
       margin-right: 2rem; }
   .merchandise {
     width: 43.8rem;
-    height: 71.1rem;
-    padding: 8.1rem 1.9rem 1.9rem;
-    background-image: url(../img/catalog/wordmob.png);
-    background-repeat: no-repeat;
-    background-size: contain; }
+    height: 59.1rem;
+    padding: 8.1rem 1.9rem 1.9rem; }
     .merchandise__title {
       font-size: 3.5rem; }
     .merchandise__content {
@@ -4953,19 +4854,17 @@ input[type="number"] {
     height: 6.4rem;
     padding: 0 2rem; }
     .bestsellers__product span {
-      font-size: 2.6rem;
-      line-height: 4rem;
+      font-size: 2.1rem;
+      line-height: normal;
       letter-spacing: 0.09em;
-      padding-left: 3rem;
+      padding-left: 4rem;
       position: relative; }
       .bestsellers__product span::before {
-        width: 3rem;
-        height: 3rem;
-        top: 50%;
+        width: 3.3rem;
+        height: 3.3rem;
+        top: -1rem;
         position: absolute;
-        content: '';
-        -webkit-transform: translate(0, -50%);
-                transform: translate(0, -50%); }
+        content: ''; }
   .bestsellers .product {
     min-width: 100%;
     height: 56rem;
@@ -4976,14 +4875,16 @@ input[type="number"] {
     padding-bottom: 1rem; }
     .bestsellers .product__image {
       width: 33.2rem;
-      height: 18.6rem; }
+      height: 18.6rem;
+      margin-bottom: 0; }
     .bestsellers .product__color-text {
       display: none; }
     .bestsellers .product__inner {
       background: #EEEDEF;
       border-radius: 5rem;
       height: 9.2rem;
-      padding: 1rem; }
+      padding: 1rem;
+      margin-top: auto; }
     .bestsellers .product__inner-wrapper {
       background-image: url(../img/main/Union.png);
       height: 7.2rem;
@@ -5001,13 +4902,17 @@ input[type="number"] {
     .bestsellers .product__name {
       margin-bottom: 3.4rem; }
       .bestsellers .product__name strong {
-        font-size: 2.9rem;
+        font-size: 2.5rem;
         line-height: 3.2rem;
         margin-bottom: 1rem;
         font-weight: 500; }
       .bestsellers .product__name span {
         font-size: 2.9rem;
-        line-height: 4rem; }
+        line-height: 4rem;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow-y: hidden; }
     .bestsellers .product__inner-colors {
       padding-top: 2.6rem;
       margin-right: 1rem; }
@@ -5082,7 +4987,9 @@ input[type="number"] {
       width: 100%;
       padding: 0 3rem; }
     .new__swiper {
-      height: 135rem;
+      height: -webkit-fit-content;
+      height: -moz-fit-content;
+      height: fit-content;
       width: 100%;
       padding-top: 6rem; }
     .new__slide {
@@ -5386,6 +5293,8 @@ input[type="number"] {
               flex-direction: column; }
     .card__bg {
       height: 130%; }
+    .card__two-image {
+      height: 58rem; }
     .card__small {
       display: none; }
     .card__two-swiper {
@@ -5729,8 +5638,22 @@ input[type="number"] {
       .catalog .title strong {
         font-size: 5.4rem;
         line-height: 120%; }
-    .catalog .product__inner-colors {
-      margin-right: 9.5rem; }
+    .catalog .product {
+      height: 99.6rem;
+      border-radius: 6.2rem; }
+      .catalog .product__inner-colors {
+        margin-right: 9.5rem; }
+      .catalog .product__inner-wrapper {
+        padding-right: 1.4rem; }
+      .catalog .product__logo {
+        width: 4.8rem;
+        height: 4.8rem;
+        margin-top: 3rem;
+        margin-left: 6.5rem;
+        margin-right: 3.6rem; }
+      .catalog .product__link-text {
+        font-size: 2.8rem;
+        margin-top: 3.4rem; }
     .catalog__btn {
       width: 35rem;
       height: 10rem;

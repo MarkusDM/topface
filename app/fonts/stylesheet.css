@@ -11,7 +11,7 @@
 }
 
 @font-face {
-    font-family: 'Sofia Pro';
+    font-family: 'Sofia Pro',sans-serif;
     src: url('SofiaProRegular-Italic.eot');
     src: local('Sofia Pro Regular Italic'), local('SofiaProRegular-Italic'),
         url('SofiaProRegular-Italic.eot?#iefix') format('embedded-opentype'),
@@ -35,7 +35,7 @@
 }
 
 @font-face {
-    font-family: 'Sofia Pro';
+    font-family: 'Sofia Pro',sans-serif;
     src: url('SofiaProLight.eot');
     src: local('Sofia Pro Light'), local('SofiaProLight'),
         url('SofiaProLight.eot?#iefix') format('embedded-opentype'),
@@ -47,7 +47,7 @@
 }
 
 @font-face {
-    font-family: 'Sofia Pro';
+    font-family: 'Sofia Pro',sans-serif;
     src: url('SofiaProExtraLight.eot');
     src: local('Sofia Pro ExtraLight'), local('SofiaProExtraLight'),
         url('SofiaProExtraLight.eot?#iefix') format('embedded-opentype'),
@@ -59,7 +59,7 @@
 }
 
 @font-face {
-    font-family: 'Sofia Pro';
+    font-family: 'Sofia Pro',sans-serif;
     src: url('SofiaProMedium-Italic.eot');
     src: local('Sofia Pro Medium Italic'), local('SofiaProMedium-Italic'),
         url('SofiaProMedium-Italic.eot?#iefix') format('embedded-opentype'),
@@ -71,7 +71,7 @@
 }
 
 @font-face {
-    font-family: 'Sofia Pro';
+    font-family: 'Sofia Pro',sans-serif;
     src: url('SofiaProUltraLight-Italic.eot');
     src: local('Sofia Pro UltraLight Italic'), local('SofiaProUltraLight-Italic'),
         url('SofiaProUltraLight-Italic.eot?#iefix') format('embedded-opentype'),
@@ -83,7 +83,7 @@
 }
 
 @font-face {
-    font-family: 'Sofia Pro';
+    font-family: 'Sofia Pro',sans-serif;
     src: url('SofiaProRegular.eot');
     src: local('Sofia Pro Regular'), local('SofiaProRegular'),
         url('SofiaProRegular.eot?#iefix') format('embedded-opentype'),
@@ -95,7 +95,7 @@
 }
 
 @font-face {
-    font-family: 'Sofia Pro';
+    font-family: 'Sofia Pro',sans-serif;
     src: url('SofiaProMedium.eot');
     src: local('Sofia Pro Medium'), local('SofiaProMedium'),
         url('SofiaProMedium.eot?#iefix') format('embedded-opentype'),
@@ -107,7 +107,7 @@
 }
 
 @font-face {
-    font-family: 'Sofia Pro';
+    font-family: 'Sofia Pro',sans-serif;
     src: url('SofiaProBold.eot');
     src: local('Sofia Pro Bold'), local('SofiaProBold'),
         url('SofiaProBold.eot?#iefix') format('embedded-opentype'),
@@ -119,7 +119,7 @@
 }
 
 @font-face {
-    font-family: 'Sofia Pro';
+    font-family: 'Sofia Pro',sans-serif;
     src: url('SofiaProExtraLight-Italic.eot');
     src: local('Sofia Pro ExtraLight Italic'), local('SofiaProExtraLight-Italic'),
         url('SofiaProExtraLight-Italic.eot?#iefix') format('embedded-opentype'),
@@ -131,7 +131,7 @@
 }
 
 @font-face {
-    font-family: 'Sofia Pro';
+    font-family: 'Sofia Pro',sans-serif;
     src: url('SofiaProLight-Italic.eot');
     src: local('Sofia Pro Light Italic'), local('SofiaProLight-Italic'),
         url('SofiaProLight-Italic.eot?#iefix') format('embedded-opentype'),
@@ -143,7 +143,7 @@
 }
 
 @font-face {
-    font-family: 'Sofia Pro';
+    font-family: 'Sofia Pro',sans-serif;
     src: url('SofiaProBlack-Italic.eot');
     src: local('Sofia Pro Black Italic'), local('SofiaProBlack-Italic'),
         url('SofiaProBlack-Italic.eot?#iefix') format('embedded-opentype'),
@@ -155,7 +155,7 @@
 }
 
 @font-face {
-    font-family: 'Sofia Pro';
+    font-family: 'Sofia Pro',sans-serif;
     src: url('SofiaProBlack.eot');
     src: local('Sofia Pro Black'), local('SofiaProBlack'),
         url('SofiaProBlack.eot?#iefix') format('embedded-opentype'),
@@ -167,7 +167,7 @@
 }
 
 @font-face {
-    font-family: 'Sofia Pro';
+    font-family: 'Sofia Pro',sans-serif;
     src: url('SofiaProUltraLight.eot');
     src: local('Sofia Pro UltraLight'), local('SofiaProUltraLight'),
         url('SofiaProUltraLight.eot?#iefix') format('embedded-opentype'),
@@ -179,7 +179,7 @@
 }
 
 @font-face {
-    font-family: 'Sofia Pro';
+    font-family: 'Sofia Pro',sans-serif;
     src: url('SofiaProBold-Italic.eot');
     src: local('Sofia Pro Bold Italic'), local('SofiaProBold-Italic'),
         url('SofiaProBold-Italic.eot?#iefix') format('embedded-opentype'),

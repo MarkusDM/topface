@@ -1,16 +1,19 @@
 
+
+jQuery.noConflict()(function ($) {
+
 $(document).ready(function() {
 
 
-  $(".poap-video-open").click( function() {
+ 
+  $(".poap-video-open").click(function() {
     $(".poap-video").addClass("poap-video--active");
   
   });
 
-
   $(".poap-video__close").click( function() {
     $(".poap-video").removeClass("poap-video--active");
-  
+    player.stop();
   });
    
   $(".popup-open").click( function() {
@@ -80,60 +83,33 @@ $(document).ready(function() {
     $('.card-desk__block.active').removeClass('active'); // 3
     content.addClass('active'); // 4
   });
+
+
+  $('.header__search').on('click', function() {
+
+    $('.header__inner-search').addClass('header__inner-search--active');
+    $('.overflow-black ').css('display', 'block');
+   
+  
+  });
   
   
-
-
+  $('.header__inner-search-close').on('click', function() {
   
-
-
+    $('.header__inner-search').removeClass('header__inner-search--active');
+    $('.overflow-black ').css('display', 'none');
   
-});
+  });
+  
+  
+  $('.card__select-bottom').on('click', function() {
+  
+    $('.card__select-list').toggleClass('card__select-list--active');
+  
+  });
 
-
- 
-      
-
-$('.header__search').on('click', function() {
-
-  $('.header__inner-search').addClass('header__inner-search--active');
-  $('.overflow-black ').css('display', 'block');
- 
-
-});
-
-
-$('.header__inner-search-close').on('click', function() {
-
-  $('.header__inner-search').removeClass('header__inner-search--active');
-  $('.overflow-black ').css('display', 'none');
-
-});
-
-
-$('.card__select-bottom').on('click', function() {
-
-  $('.card__select-list').toggleClass('card__select-list--active');
-
-});
-
-
-
-
-
-
-
-
-
-
-
-var text = $('.about__circle-left-text').html();
+  var text = $('.about__circle-left-text').html();
 var textLen = text.length;
-
-wrapLettersInSpan(text);
-addTransformCss();
-
-
 
 function wrapLettersInSpan(text) {
   var arr = text.split('');
@@ -152,6 +128,19 @@ function addTransformCss() {
     transformStart += transformStep;
   });
 }
+
+
+wrapLettersInSpan(text);
+addTransformCss();
+
+
+});
+
+
+});
+      
+
+
 
 
 

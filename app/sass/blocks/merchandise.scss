@@ -1,7 +1,7 @@
 .merchandise {
     width: 35.2rem;
-    height: 53.1rem;
-    border-radius: 100rem;
+    height: 45rem;
+    border-radius: 100rem 100rem 0 0;
     position: relative;
     display: flex;
     justify-content: center;
@@ -57,7 +57,7 @@
         line-height: 2.8rem;
         letter-spacing: 0.02em;
         color: rgba(255, 255, 255, 0.5);
-        
+        display: none;
        
 
         span {

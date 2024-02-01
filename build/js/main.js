@@ -1,5 +1,8 @@
-const player = new Plyr('#player');
+"use strict";
 
+
+
+const player = new Plyr('#player');
 
 const mainSwiper = new Swiper('.main__swiper', {
   slidesPerView: 1,
@@ -7,10 +10,10 @@ const mainSwiper = new Swiper('.main__swiper', {
   spaceBetween: 20,
   wrapperClass: 'main__swiper-wrapper',
   slideClass: 'main__swiper-slide',
-  speed: 400,
+  speed: 1000,
   autoplay: true,
   autoplay: {
-      delay: 8000,
+    delay: 8000,
   },
   navigation: {
     prevEl: '.main__prev',
@@ -24,24 +27,22 @@ const mainSwiper = new Swiper('.main__swiper', {
 
 
   breakpoints: {
-    
+
     748: {
       slidesPerView: 'auto',
-     
-      
-   
-     
+
+
+
+
     },
-   
+
   },
 
- 
+
 });
 
 
-
-
-categoriesSwiper = new Swiper(".categories__swiper", {
+const categoriesSwiper = new Swiper(".categories__swiper", {
   direction: "horizontal",
   slidesPerView: 'auto',
   wrapperClass: 'categories__swiper-wrapper',
@@ -55,10 +56,8 @@ categoriesSwiper = new Swiper(".categories__swiper", {
     el: ".categories__fraction",
     type: "fraction",
   },
-  
+
 });
-
-
 
 
 const mainTwoSwiper = new Swiper('.main__swiper-two', {
@@ -66,14 +65,14 @@ const mainTwoSwiper = new Swiper('.main__swiper-two', {
   loop: true,
   wrapperClass: 'main__swiper-two-wrapper',
   slideClass: 'main__swiper-two-slide',
-  speed: 400,
+  speed: 700,
   effect: 'fade',
   fadeEffect: {
     crossFade: true
   },
   autoplay: true,
   autoplay: {
-      delay: 4000,
+    delay: 4000,
   },
   navigation: {
     nextEl: '.main__swiper-two-next',
@@ -81,28 +80,28 @@ const mainTwoSwiper = new Swiper('.main__swiper-two', {
 
 
 
- 
+
 });
 
 const bestsellersSwiper = new Swiper('.bestsellers__swiper', {
- 
+
   slidesPerView: 2,
   slidesPerGroup: 4,
-  
+
   grid: {
     rows: 2,
   },
- 
+
   spaceBetween: 16,
   wrapperClass: 'bestsellers__swiper-wrapper',
   slideClass: 'bestsellers__slide',
-  speed: 400,
+  speed: 500,
 
   navigation: {
     prevEl: '.bestsellers__prev',
     nextEl: '.bestsellers__next',
     lockClass: 'bestsellers__pagination-none'
-    
+
   },
 
   pagination: {
@@ -112,21 +111,21 @@ const bestsellersSwiper = new Swiper('.bestsellers__swiper', {
   },
 
   breakpoints: {
-    
+
     748: {
       slidesPerView: 4,
       slidesPerGroup: 4,
       spaceBetween: 15,
-      
+
       grid: {
         rows: 1,
       },
-     
+
     },
-   
+
   },
 
- 
+
 });
 
 
@@ -142,8 +141,8 @@ const newSwiper = new Swiper('.new__swiper', {
   spaceBetween: 16,
   wrapperClass: 'new__swiper-wrapper',
   slideClass: 'new__slide',
-  speed: 400,
-  
+  speed: 500,
+
   navigation: {
     prevEl: '.new__prev',
     nextEl: '.new__next',
@@ -157,20 +156,20 @@ const newSwiper = new Swiper('.new__swiper', {
   },
 
   breakpoints: {
-    
+
     748: {
       slidesPerView: 4,
       slidesPerGroup: 4,
       spaceBetween: 15,
-      
+
       grid: {
         rows: 1,
       },
-     
+
     },
-   
+
   },
- 
+
 });
 
 
@@ -180,7 +179,7 @@ const cardDeskSwiper = new Swiper('.card-desk__swiper', {
   spaceBetween: 10,
   wrapperClass: 'card-desk__swiper-wrapper',
   slideClass: 'card-desk__slide',
-  speed: 400,
+  speed: 500,
   navigation: {
     prevEl: '.card-desk__prev',
     nextEl: '.card-desk__next',
@@ -192,9 +191,9 @@ const cardDeskSwiper = new Swiper('.card-desk__swiper', {
   },
 
 
-  
 
- 
+
+
 });
 
 const advantagesSlide = new Swiper('.advantages__swiper', {
@@ -202,7 +201,7 @@ const advantagesSlide = new Swiper('.advantages__swiper', {
   spaceBetween: 10,
   wrapperClass: 'advantages__swiper-wrapper',
   slideClass: 'advantages__swiper-slide',
-  speed: 400,
+  speed: 500,
   navigation: {
     prevEl: '.advantages__prev',
     nextEl: '.advantages__next',
@@ -214,70 +213,70 @@ const advantagesSlide = new Swiper('.advantages__swiper', {
   },
 
   breakpoints: {
-    
+
     748: {
       slidesPerView: 'auto',
     },
-   
-  },
-  
 
- 
+  },
+
+
+
 });
 
 // Инициализация превью слайдера
 const cardOne = new Swiper('.card__swiper', { // ищем слайдер превью по селектору
-	// задаем параметры
-	direction: 'vertical', // вертикальная прокрутка
-	slidesPerView: 3, // показывать по 3 превью
-	spaceBetween: 9, // расстояние между слайдами
+  // задаем параметры
+  direction: 'vertical', // вертикальная прокрутка
+  slidesPerView: 3, // показывать по 3 превью
+  spaceBetween: 9, // расстояние между слайдами
   loop: true,
-	navigation: { // задаем кнопки навигации
-		nextEl: '.card__swiper-next', // кнопка Next
-		// prevEl: '' //
-	},
-	freeMode: true, // при перетаскивании превью ведет себя как при скролле
-	breakpoints: { // условия для разных размеров окна браузера
-		0: { // при 0px и выше
-			direction: 'horizontal', // горизонтальная прокрутка
-		},
-		768: { // при 768px и выше
-			direction: 'vertical', // вертикальная прокрутка
+  navigation: { // задаем кнопки навигации
+    nextEl: '.card__swiper-next', // кнопка Next
+    // prevEl: '' //
+  },
+  freeMode: true, // при перетаскивании превью ведет себя как при скролле
+  breakpoints: { // условия для разных размеров окна браузера
+    0: { // при 0px и выше
+      direction: 'horizontal', // горизонтальная прокрутка
+    },
+    768: { // при 768px и выше
+      direction: 'vertical', // вертикальная прокрутка
       spaceBetween: 9,
-		}
-	}
+    }
+  }
 });
 // Инициализация слайдера изображений
 const cardTwo = new Swiper('.card__two-swiper', { // ищем слайдер превью по селектору
-	// задаем параметры
-	direction: 'vertical', // вертикальная прокрутка
-	slidesPerView: 1, // показывать по 1 изображению
-	spaceBetween: 32, // расстояние между слайдами
-	mousewheel: true, // можно прокручивать изображения колёсиком мыши
+  // задаем параметры
+  direction: 'vertical', // вертикальная прокрутка
+  slidesPerView: 1, // показывать по 1 изображению
+  spaceBetween: 32, // расстояние между слайдами
+  mousewheel: true, // можно прокручивать изображения колёсиком мыши
   effect: 'fade',
   fadeEffect: {
     crossFade: true
   },
-	navigation: { // задаем кнопки навигации
-		nextEl: '.card-swiper__next', // кнопка Next
+  navigation: { // задаем кнопки навигации
+    nextEl: '.card-swiper__next', // кнопка Next
 
-	},
+  },
   pagination: {
     el: ".card__two-swiper-pagination",
     dynamicBullets: true,
   },
-	grabCursor: true, // менять иконку курсора
-	thumbs: { // указываем на превью слайдер
-		swiper: cardOne // указываем имя превью слайдера
-	},
-	breakpoints: { // условия для разных размеров окна браузера
-		0: { // при 0px и выше
-			direction: 'horizontal', // горизонтальная прокрутка
-		},
-		768: { // при 768px и выше
-			direction: 'vertical', // вертикальная прокрутка
-		}
-	}
+  grabCursor: true, // менять иконку курсора
+  thumbs: { // указываем на превью слайдер
+    swiper: cardOne // указываем имя превью слайдера
+  },
+  breakpoints: { // условия для разных размеров окна браузера
+    0: { // при 0px и выше
+      direction: 'horizontal', // горизонтальная прокрутка
+    },
+    768: { // при 768px и выше
+      direction: 'vertical', // вертикальная прокрутка
+    }
+  }
 });
 
 
@@ -289,7 +288,7 @@ const cardTwo = new Swiper('.card__two-swiper', { // ищем слайдер п�
 
 const catalogCenter = new Swiper('.main-catalog__center-swiper', {
 
-	slidesPerView: 1, 
+  slidesPerView: 1,
   speed: 400,
   loop: true,
   effect: 'fade',
@@ -300,113 +299,91 @@ const catalogCenter = new Swiper('.main-catalog__center-swiper', {
     el: ".main-catalog__fraction",
     type: "fraction",
   },
-	navigation: { 
+  navigation: {
     prevEl: '.main-catalog__prev',
-		nextEl: '.main-catalog__next', 
-		
-	},
-	freeMode: true, 
-	
-});
+    nextEl: '.main-catalog__next',
 
+  },
+  freeMode: true,
 
-
-ymaps.ready(function () {
-  var myMap = new ymaps.Map('map', {
-          center: [55.749633, 37.537434],
-          zoom: 16
-      }, {
-          searchControlProvider: 'yandex#search'
-      }),
-
-      // Создаём макет содержимого.
-      MyIconContentLayout = ymaps.templateLayoutFactory.createClass(
-          '<div style="color: #FFFFFF; font-weight: bold;">$[properties.iconContent]</div>'
-      ),
-
-      myPlacemark = new ymaps.Placemark(myMap.getCenter(), {
-          hintContent: 'DEEP VAPE',
-          balloonContent: [
-           `
-           <div class="yandex-content">
-    <div class="yandex-content__title">
-        DEEP VAPE
-    </div>
-    
-</div>`
-          ]
-      }, {
-          // // Опции.
-          // // Необходимо указать данный тип макета.
-          iconLayout: 'default#image',
-          // // Своё изображение иконки метки.
-          iconImageHref: 'img/galka.svg',
-          // Размеры метки.
-          iconImageSize: [69, 78],
-          // Смещение левого верхнего угла иконки относительно
-          // её "ножки" (точки привязки).
-          iconImageOffset: [-5, -38]
-      }),
-
-      myPlacemarkWithContent = new ymaps.Placemark([55.785979, 37.660521], {
-          hintContent: 'Собственный значок метки с контентом',
-          balloonContent: 'А эта — новогодняя',
-          iconContent: '12'
-      }, {
-          // Опции.
-          // Необходимо указать данный тип макета.
-          iconLayout: 'default#imageWithContent',
-          // Своё изображение иконки метки.
-          iconImageHref: 'img\galka.svg',
-          // Размеры метки.
-          iconImageSize: [48, 48],
-          // Смещение левого верхнего угла иконки относительно
-          // её "ножки" (точки привязки).
-          iconImageOffset: [-24, -24],
-          // Смещение слоя с содержимым относительно слоя с картинкой.
-          iconContentOffset: [15, 15],
-          // Макет содержимого.
-          iconContentLayout: MyIconContentLayout
-      });
-
-  myMap.geoObjects
-      .add(myPlacemark)
-      .add(myPlacemarkWithContent);
 });
 
 
 
 
 console.log('Start');
-var $ = document.getElementById.bind(document),
-    container = $('scrollbar-container'),
-    content = $('content'),
-    scroll = $('scrollbar');
+const $ = document.getElementById.bind(document),
+  container = $('scrollbar-container'),
+  content = $('content'),
+  scroll = $('scrollbar');
 
-content.addEventListener('scroll', function(e) {
-  scroll.style.height = container.clientHeight * content.clientHeight / content.scrollHeight + "px";
-  scroll.style.top = container.clientHeight * content.scrollTop / content.scrollHeight + "px";
-});
-var event = new Event('scroll');
-
-window.addEventListener('resize', content.dispatchEvent.bind(content, event));
-content.dispatchEvent(event);
-
-scroll.addEventListener('mousedown', function(start){
-  start.preventDefault();
-  var y = scroll.offsetTop;
-  var onMove = function(end){
-    var delta = end.pageY - start.pageY;
-    scroll.style.top = Math.min(container.clientHeight - scroll.clientHeight, Math.max(0, y + delta)) + 'px';
-    content.scrollTop = (content.scrollHeight * scroll.offsetTop / container.clientHeight);
-  };
-  document.addEventListener('mousemove', onMove);
-  document.addEventListener('mouseup', function(){
-    document.removeEventListener('mousemove', onMove);
+if (content) {
+  content.addEventListener('scroll', function (e) {
+    scroll.style.height = container.clientHeight * content.clientHeight / content.scrollHeight + "px";
+    scroll.style.top = container.clientHeight * content.scrollTop / content.scrollHeight + "px";
   });
-});
-console.log('Done');
+  var event = new Event('scroll');
+
+  window.addEventListener('resize', content.dispatchEvent.bind(content, event));
+  content.dispatchEvent(event);
+
+  scroll.addEventListener('mousedown', function (start) {
+    start.preventDefault();
+    var y = scroll.offsetTop;
+    var onMove = function (end) {
+      var delta = end.pageY - start.pageY;
+      scroll.style.top = Math.min(container.clientHeight - scroll.clientHeight, Math.max(0, y + delta)) + 'px';
+      content.scrollTop = (content.scrollHeight * scroll.offsetTop / container.clientHeight);
+    };
+    document.addEventListener('mousemove', onMove);
+    document.addEventListener('mouseup', function () {
+      document.removeEventListener('mousemove', onMove);
+    });
+  });
+  console.log('Done');
+
+}
+
+// const productTab = document.querySelectorAll('.product--tabs');
+
+// if (productTab) {
+//   productTab.forEach((e) => {
+//     let tabTabs = e.querySelectorAll('.product__image .product__image-content');
+//     let tabItems = e.querySelectorAll('.product__inner-colors .product__inner-color');
+//     for (let i = 0; i < tabTabs.length; i++) {
+//       tabTabs[0].click();
+//       tabTabs[i].onclick = () => {
+//         tabTabs.forEach((e) => { e.classList.remove('active'); });
+//         tabItems.forEach((e) => { e.classList.remove('active'); });
+//         tabTabs[i].classList.add('active');
+//         tabItems[i].classList.add('active');
+//       };
+//     }
+//   });
+// }
 
 
 
- 
+const tab = document.querySelectorAll(".product--tabs");
+const toggleTab = function (element) {
+  const tabBtn = element.querySelectorAll(".product__inner-color");
+  const tabContent = element.querySelectorAll(".product__image-content");
+  tabBtn[0].classList.add("active");
+  tabContent[0].classList.add("active");
+
+  const removeTab = function (element) {
+    for (const i of element) {
+      i.classList.remove("active");
+    }
+  };
+  const openTab = function (index) {
+    removeTab(tabBtn);
+    removeTab(tabContent);
+    tabBtn[index].classList.add("active");
+    tabContent[index].classList.add("active");
+  };
+  tabBtn.forEach((el, i) => (el.onclick = () => openTab(i)));
+};
+[...tab].forEach((el) => toggleTab(el));
+
+
