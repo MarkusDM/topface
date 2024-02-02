@@ -223,8 +223,6 @@ const cardTwo = new Swiper('.card__two-swiper', { // ищем слайдер п�
 
 
 
-
-
 function cardTab(parent, i = 0) {
   try {
       let p = parent
@@ -261,15 +259,6 @@ if (document.querySelector('.card-desk__inner')) {
     cardTab(element);
   });
 }
-
-
-
-
-
-
-
-
-
 
 
 // slider на старнице каталог 
@@ -345,73 +334,6 @@ const catalogLeft = new Swiper('.main-catalog__left-swiper', {
 	},
   
 });
-
-ymaps.ready(function () {
-  var myMap = new ymaps.Map('map', {
-          center: [55.749633, 37.537434],
-          zoom: 16
-      }, {
-          searchControlProvider: 'yandex#search'
-      }),
-
-      // Создаём макет содержимого.
-      MyIconContentLayout = ymaps.templateLayoutFactory.createClass(
-          '<div style="color: #FFFFFF; font-weight: bold;">$[properties.iconContent]</div>'
-      ),
-
-      myPlacemark = new ymaps.Placemark(myMap.getCenter(), {
-          hintContent: 'DEEP VAPE',
-          balloonContent: [
-           `
-           <div class="yandex-content">
-    <div class="yandex-content__title">
-        DEEP VAPE
-    </div>
-    
-</div>`
-          ]
-      }, {
-          // // Опции.
-          // // Необходимо указать данный тип макета.
-          iconLayout: 'default#image',
-          // // Своё изображение иконки метки.
-          iconImageHref: 'img/galka.svg',
-          // Размеры метки.
-          iconImageSize: [69, 78],
-          // Смещение левого верхнего угла иконки относительно
-          // её "ножки" (точки привязки).
-          iconImageOffset: [-5, -38]
-      }),
-
-      myPlacemarkWithContent = new ymaps.Placemark([55.785979, 37.660521], {
-          hintContent: 'Собственный значок метки с контентом',
-          balloonContent: 'А эта — новогодняя',
-          iconContent: '12'
-      }, {
-          // Опции.
-          // Необходимо указать данный тип макета.
-          iconLayout: 'default#imageWithContent',
-          // Своё изображение иконки метки.
-          iconImageHref: 'img\galka.svg',
-          // Размеры метки.
-          iconImageSize: [48, 48],
-          // Смещение левого верхнего угла иконки относительно
-          // её "ножки" (точки привязки).
-          iconImageOffset: [-24, -24],
-          // Смещение слоя с содержимым относительно слоя с картинкой.
-          iconContentOffset: [15, 15],
-          // Макет содержимого.
-          iconContentLayout: MyIconContentLayout
-      });
-
-  myMap.geoObjects
-      .add(myPlacemark)
-      .add(myPlacemarkWithContent);
-});
-
-
-
-
 
 
 

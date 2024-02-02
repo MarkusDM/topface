@@ -92,7 +92,7 @@ const bestsellersSwiper = new Swiper('.bestsellers__swiper', {
     rows: 2,
   },
 
-  spaceBetween: 16,
+  spaceBetween: 10,
   wrapperClass: 'bestsellers__swiper-wrapper',
   slideClass: 'bestsellers__slide',
   speed: 500,
@@ -135,10 +135,12 @@ const bestsellersSwiper = new Swiper('.bestsellers__swiper', {
 const newSwiper = new Swiper('.new__swiper', {
   slidesPerView: 2,
   slidesPerGroup: 4,
+
   grid: {
     rows: 2,
   },
-  spaceBetween: 16,
+
+  spaceBetween: 10,
   wrapperClass: 'new__swiper-wrapper',
   slideClass: 'new__slide',
   speed: 500,
@@ -344,46 +346,28 @@ if (content) {
 
 }
 
-// const productTab = document.querySelectorAll('.product--tabs');
 
-// if (productTab) {
-//   productTab.forEach((e) => {
-//     let tabTabs = e.querySelectorAll('.product__image .product__image-content');
-//     let tabItems = e.querySelectorAll('.product__inner-colors .product__inner-color');
-//     for (let i = 0; i < tabTabs.length; i++) {
-//       tabTabs[0].click();
-//       tabTabs[i].onclick = () => {
-//         tabTabs.forEach((e) => { e.classList.remove('active'); });
-//         tabItems.forEach((e) => { e.classList.remove('active'); });
-//         tabTabs[i].classList.add('active');
-//         tabItems[i].classList.add('active');
-//       };
+
+// const tab = document.querySelectorAll(".product--tabs");
+// const toggleTab = function (element) {
+//   const tabBtn = element.querySelectorAll(".product__inner-color");
+//   const tabContent = element.querySelectorAll(".product__image-content");
+//   tabBtn[0].classList.add("active");
+//   tabContent[0].classList.add("active");
+
+//   const removeTab = function (element) {
+//     for (const i of element) {
+//       i.classList.remove("active");
 //     }
-//   });
-// }
-
-
-
-const tab = document.querySelectorAll(".product--tabs");
-const toggleTab = function (element) {
-  const tabBtn = element.querySelectorAll(".product__inner-color");
-  const tabContent = element.querySelectorAll(".product__image-content");
-  tabBtn[0].classList.add("active");
-  tabContent[0].classList.add("active");
-
-  const removeTab = function (element) {
-    for (const i of element) {
-      i.classList.remove("active");
-    }
-  };
-  const openTab = function (index) {
-    removeTab(tabBtn);
-    removeTab(tabContent);
-    tabBtn[index].classList.add("active");
-    tabContent[index].classList.add("active");
-  };
-  tabBtn.forEach((el, i) => (el.onclick = () => openTab(i)));
-};
-[...tab].forEach((el) => toggleTab(el));
+//   };
+//   const openTab = function (index) {
+//     removeTab(tabBtn);
+//     removeTab(tabContent);
+//     tabBtn[index].classList.add("active");
+//     tabContent[index].classList.add("active");
+//   };
+//   tabBtn.forEach((el, i) => (el.onclick = () => openTab(i)));
+// };
+// [...tab].forEach((el) => toggleTab(el));
 
 
