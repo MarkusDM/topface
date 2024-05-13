@@ -1,7 +1,5 @@
 "use strict";
 
-
-
 const player = new Plyr('#player');
 
 const mainSwiper = new Swiper('.main__swiper', {
@@ -177,11 +175,8 @@ const newSwiper = new Swiper('.new__swiper', {
 
 
 const cardDeskSwiper = new Swiper('.card-desk__swiper', {
-  slidesPerView: 'auto',
+
   spaceBetween: 10,
-  wrapperClass: 'card-desk__swiper-wrapper',
-  slideClass: 'card-desk__slide',
-  speed: 500,
   navigation: {
     prevEl: '.card-desk__prev',
     nextEl: '.card-desk__next',
@@ -193,7 +188,20 @@ const cardDeskSwiper = new Swiper('.card-desk__swiper', {
   },
 
 
+  breakpoints: {
 
+    748: {
+      slidesPerView: 4,
+      slidesPerGroup: 4,
+      spaceBetween: 15,
+
+      grid: {
+        rows: 1,
+      },
+
+    },
+
+  },
 
 
 });
@@ -217,7 +225,7 @@ const advantagesSlide = new Swiper('.advantages__swiper', {
   breakpoints: {
 
     748: {
-      slidesPerView: 'auto',
+      slidesPerView: 4,
     },
 
   },
@@ -254,7 +262,7 @@ const cardTwo = new Swiper('.card__two-swiper', { // ищем слайдер п�
   direction: 'vertical', // вертикальная прокрутка
   slidesPerView: 1, // показывать по 1 изображению
   spaceBetween: 32, // расстояние между слайдами
-  mousewheel: true, // можно прокручивать изображения колёсиком мыши
+  mousewheel: false, // можно прокручивать изображения колёсиком мыши
   effect: 'fade',
   fadeEffect: {
     crossFade: true
@@ -288,27 +296,27 @@ const cardTwo = new Swiper('.card__two-swiper', { // ищем слайдер п�
 
 
 
-const catalogCenter = new Swiper('.main-catalog__center-swiper', {
+// const catalogCenter = new Swiper('.main-catalog__center-swiper', {
 
-  slidesPerView: 1,
-  speed: 400,
-  loop: true,
-  effect: 'fade',
-  fadeEffect: {
-    crossFade: true
-  },
-  pagination: {
-    el: ".main-catalog__fraction",
-    type: "fraction",
-  },
-  navigation: {
-    prevEl: '.main-catalog__prev',
-    nextEl: '.main-catalog__next',
+//   slidesPerView: 1,
+//   speed: 400,
+//   loop: true,
+//   effect: 'fade',
+//   fadeEffect: {
+//     crossFade: true
+//   },
+//   pagination: {
+//     el: ".main-catalog__fraction",
+//     type: "fraction",
+//   },
+//   navigation: {
+//     prevEl: '.main-catalog__prev',
+//     nextEl: '.main-catalog__next',
 
-  },
-  freeMode: true,
+//   },
+//   freeMode: true,
 
-});
+// });
 
 
 

@@ -20,10 +20,10 @@
         content: '';
         width: 100%;
         height: 7.9rem;
-        background-image: url(../img/Bogeniaabout.png);
+        background-image: url(../img/about/lineword.svg);
         background-repeat: no-repeat;
         background-size: contain;
-        z-index: 0;
+        z-index: -1;
         top: 40rem;
     }
 
@@ -164,16 +164,17 @@
         position: relative;
         display: block;
         display: flex;
+        background-image: url(../img/about/bg-circle.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
     }
 
     &__circle-left {
         width: 25.3rem;
         height: 50.5rem;
         top: 0;
-        background: #E3B9BB;
         border-radius: 100% 0 0 100% / 50% 0 0 50%;
         position: absolute;
-       
         left: 0;
         
     }
@@ -184,6 +185,7 @@
         font-weight: 500;
         font-size: 1.8rem;
         line-height: 2.2rem;
+        letter-spacing: initial;
         color: #FFFFFF;
         position: absolute;
         right: 5rem;
@@ -223,11 +225,10 @@
         position: absolute;
         left: 0;
         top: 0;
-        width: 14.2rem;
-        height: 25rem;
+        width: 15rem;
+        height: 26rem;
         display: inline-block;
         text-align: center;
-        vertical-align: top;
         transform-origin: bottom;
     }
 
@@ -235,15 +236,12 @@
         width: 43.9rem;
         height: 44rem;
         border-radius: 50%;
-        background: #E3B9BB;
         position: absolute;
         display: flex;
         justify-content: center;
         align-items: center;
-        top: 50%;
-        transform: translate(0,-50%);
-        
-        right: 0;
+        top: 1rem;
+        right: -1rem;
     }
 
     &__circle-right-image {

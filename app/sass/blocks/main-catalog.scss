@@ -341,5 +341,96 @@
         margin-top: -2rem;
     }
 
+    &__prev {
+        &:hover {
+            &::before {
+                transform: initial;
+            }
+
+            span {
+                &::before {
+                    transform: translate(-0.2rem, -52.5%);
+                    transition: transform .5s ease;
+                }
+            }
+        }
+        &::before {
+            position: absolute;
+            content:'';
+            width: 4rem;
+            top: 0.7rem;
+            left: 0.7rem;
+            height: 4rem;
+            background: #FFFFFF;
+            border-radius: 50%;
+            pointer-events: none;
+        }
+
+        span {
+            position: relative;
+            padding-left: 3.2rem;
+            padding-right: 3rem;
+            &::before {
+                position: absolute;
+                content:'';
+                width: 2.1rem;
+                left: 0;
+                top: 52.5%;
+                transform: translate(0, -52.5%);
+                height: 1rem;
+                background-image: url(../img/icon/prevblack.svg);
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+                transition: transform .5s ease;
+            }
+        }
+    }
+
+    &__next {
+        &:hover {
+            &::before {
+                transform: initial;
+            }
+
+            span {
+                &::before {
+                    transform: translate(0.2rem, -52.5%);
+                    transition: transform .5s ease;
+                }
+            }
+        }
+        &::before {
+            position: absolute;
+            content:'';
+            width: 4rem;
+            top: 0.7rem;
+            right: 0.7rem;
+            left: initial;
+            height: 4rem;
+            background: #FFFFFF;
+            border-radius: 50%;
+            pointer-events: none;
+        }
+
+        span {
+            position: relative;
+            padding-left: 3.2rem;
+            padding-right: 3.2rem;
+            &::before {
+                position: absolute;
+                content:'';
+                width: 2.1rem;
+                right: 0;
+                top: 52.5%;
+                transform: translate(0, -52.5%);
+                height: 1rem;
+                background-image: url(../img/icon/nextblack.svg);
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+                transition: transform .5s ease;
+            }
+        }
+    }
+
     
 }

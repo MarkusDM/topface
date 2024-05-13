@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="stylesheet" href="https://cdn.plyr.io/3.7.3/plyr.css" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+	<link href="https://db.onlinewebfonts.com/c/0b5ecd0afcf95185925504cdca01f5e3?family=Druk+Wide+Cy+Web+Bold+Regular" rel="stylesheet">
+	<link rel="stylesheet" href="./css/animate.min.css">
+	<link rel="stylesheet" href="./css/style.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Главная</title>
+</head>
+
+<body>
+	@@include('./template/header.html')
+	
+	
+	<main>
+		<section class="error-p">
+            <div class="container">
+                <div class="error-p__wrapper">
+                    <div class="error-p__img-left">
+                        <img src="./img/error/error1.png" alt="">
+                    </div>
+                    <div class="error-p__content">
+                        <div class="error-p__title">404</div>
+                        <div class="error-p__title-small">Страница не найдена</div>
+                        <div class="error-p__text">Возможно страница устарела, была удалена, или был введен неверный адрес в адресной строке.</div>
+                        <button class="button-all">
+                            <span>на главную </span>
+                        </button>
+                    </div>
+                    <div class="error-p__img-right">
+                        <img src="./img/error/error2.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+	</main>
+	@@include('./template/footer.html')
+	
+</body>
+
+</html>

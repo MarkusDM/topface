@@ -231,7 +231,7 @@
         span {
             font-size: 3.6rem;
             line-height: 5rem;
-            font-family: 'Sofia Pro', sans-serif;
+        
         }
     }
 
@@ -247,7 +247,7 @@
         span {
             font-size: 3.6rem;
             line-height: 5rem;
-            font-family: 'Sofia Pro',sans-serif;
+            
             padding-left: 2rem;
             margin-top: -1rem;
         }
@@ -261,7 +261,7 @@
         span {
             font-size: 3.6rem;
             line-height: 5rem;
-            font-family: 'Sofia Pro',sans-serif;
+           
             padding-right: 2rem;
             margin-top: -1rem;
         }
@@ -1185,7 +1185,8 @@
     }
 
     &__two-image {
-        height: 58rem;
+        height: 59rem;
+        margin-bottom: 12rem;
     }
 
 
@@ -1483,6 +1484,38 @@
     &__prev {
         width: 38rem;
     }
+
+    .product {
+        width: 100%;
+        max-width: 100%;
+        border-radius: 4.2rem;
+        height: 102.6rem;
+        padding-top: 9.8rem;
+        &__logo {
+            width: 5.8rem;
+            height: 5.8rem;
+            margin-top: 2rem;
+            margin-left: 5.5rem;
+            margin-right: 5.6rem;
+        }
+
+        &__inner-wrapper {
+            width: 100%;
+            height: 11.4rem;
+            padding-right: 1.5rem;
+        }
+
+        &__link-text {
+            color: rgba(69,60,60,.5);
+            text-align: center;
+            font-size: 2.8rem;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            letter-spacing: .36px;
+            margin-top: 3.2rem;
+        }
+    }
 }
 
 .main-catalog {
@@ -1689,6 +1722,98 @@
         width: 38rem;
     }
 
+    &__prev {
+        &:hover {
+            &::before {
+                transform: initial;
+            }
+
+            span {
+                &::before {
+                    transform: translate(-0.2rem, -55.5%);
+                    transition: transform .5s ease;
+                }
+            }
+        }
+        &::before {
+            position: absolute;
+            content:'';
+            width: 8rem;
+            top: 1.4rem;
+            left: 1.4rem;
+            height: 8rem;
+            background: #FFFFFF;
+            border-radius: 50%;
+            pointer-events: none;
+        }
+
+        span {
+            position: relative;
+            padding-left: 6.2rem;
+            padding-right: 7rem;
+            &::before {
+                position: absolute;
+                content:'';
+                width: 4.2rem;
+                left: 0;
+                top: 53.5%;
+                transform: translate(0, -55.5%);
+                height: 2rem;
+                background-image: url(../img/icon/prevblack.svg);
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+                transition: transform .5s ease;
+            }
+        }
+    }
+
+    &__next {
+        &:hover {
+            &::before {
+                transform: initial;
+            }
+
+            span {
+                &::before {
+                    transform: translate(0.2rem, -55.5%);
+                    transition: transform .5s ease;
+                }
+            }
+        }
+        &::before {
+            position: absolute;
+            content:'';
+            width: 8rem;
+            top: 1.4rem;
+            left: 1.4rem;
+            height: 8rem;
+            left: initial;
+            background: #FFFFFF;
+            border-radius: 50%;
+            pointer-events: none;
+        }
+
+        span {
+            position: relative;
+           
+            padding-left: 7rem;
+            padding-right: 6.2rem;
+            &::before {
+                position: absolute;
+                content:'';
+                width: 4.2rem;
+                right: 0;
+                top: 55.5%;
+                transform: translate(0, -55.5%);
+                height: 2rem;
+                background-image: url(../img/icon/nextblack.svg);
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+                transition: transform .5s ease;
+            }
+        }
+    }
+
     .pagination__arrows {
         width: 100%;
         justify-content: space-between;
@@ -1818,7 +1943,7 @@
     }
     &::after {
         top: 81.5rem;
-        background-image: url(../img/about/topp.svg);
+        background-image: url(../img/about/lineword.svg);
     }
     .container {
         width: 100%;
@@ -2792,7 +2917,7 @@
     }
 
     &__none-lists {
-        font-family: 'Sofia Pro',sans-serif;
+        font-family: 'Sofia Pro';
         font-style: normal;
         font-weight: 400;
         font-size: 3rem;

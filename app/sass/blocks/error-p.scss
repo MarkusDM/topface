@@ -1,0 +1,120 @@
+.error-p {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    @media only all and  (max-width: 48em) {
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+     }
+    .container {
+        position: relative;
+        padding-top: 23.3rem;
+        padding-bottom: 23.3rem;
+        background-color: #fff;
+        width: 184.4rem;
+        border-radius: 4.5rem;
+        @media only all and  (max-width: 48em) {
+            width: 92%;
+            padding: 28.6rem 3rem;
+            border-radius: 6rem;
+        }
+    }
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        width: 74.9rem;
+        margin: 0 auto;
+        @media only all and  (max-width: 48em) {
+            width: 100%;
+        }
+    }
+    
+    &__title {
+        font-family: 'Druk Wide Cyr';
+        font-size: 20rem;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 0.04em;
+        margin-bottom: 6rem;
+        @media only all and  (max-width: 48em) {
+            font-size: 16rem;
+            margin-bottom: 8rem;
+        }
+
+    }
+
+    &__title-small {
+        font-family: 'Druk Wide Cyr';
+        font-size: 4rem;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 0.04em;
+        margin-bottom: 3.2rem;
+        @media only all and  (max-width: 48em) {
+            margin-bottom: 4.8rem;
+            width: 53rem;
+            font-size: 5rem;
+            text-align: center;
+        }
+
+    }
+
+    &__text {
+        width: 56.9rem;
+        font-size: 1.8rem;
+        font-weight: 400;
+        line-height: 1.8rem;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #453C3C80;
+        margin-bottom: 3.2rem;
+        @media only all and  (max-width: 48em) {
+            margin-bottom: 4.8rem;
+            line-height: normal;
+            width: 64rem;
+            font-size: 3.2rem;
+        }
+
+    }
+
+
+    .button-all::before {
+        background: #E2B6B6;
+    }
+
+
+    &__img-left {
+        position: absolute;
+        width: 23.45rem;
+        height: 32.12rem;
+        bottom: 10.2rem;
+        left: 14.7rem;
+        @media only all and  (max-width: 48em) { 
+            display: none;
+        }
+        img {
+            height: 100%;
+            object-fit: cover;
+        
+        }
+
+
+    }
+
+    &__img-right {
+        position: absolute;
+        width: 13.16rem;
+        height: 28.72rem;
+        top: 11.5rem;
+        right: 23.1rem;
+        @media only all and  (max-width: 48em) { 
+            display: none;
+        }
+        img {
+            height: 100%;
+            object-fit: cover;
+        }
+
+    }
+}
