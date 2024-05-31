@@ -22,6 +22,14 @@ jQuery.noConflict()(function ($) { // this was missing for me
       $(".popup").removeClass("popup--active");
     
     });
+
+    $(".modal-sent__close").click( function() {
+      $(".modal-sent").removeClass("active");
+    
+    });
+
+
+    
      
       $(function() {
           $('.header__burger').click(function(){
@@ -105,10 +113,12 @@ jQuery.noConflict()(function ($) { // this was missing for me
     
     });
   
+   
 
  
 });
-
+ 
+ $("#phone-input").mask("+7 (999) 999-9999");
 });
 
 

@@ -137,6 +137,9 @@
                     font-weight: 500;
                     font-size: 1.8rem;
                     line-height: 2.8rem;
+                    @media only all and  (max-width: 48em) { 
+                        font-size: 2.1rem;
+                    }
                 }
             }
 
@@ -166,6 +169,12 @@
             padding-left: 3.1rem;
             padding-top: 1.3rem;
             padding-bottom: 1.3rem;
+        
+            @media only all and  (max-width: 48em) { 
+                font-size: 2.1rem;
+
+              
+            }
             
         }
     }
@@ -181,6 +190,9 @@
             font-size: 1.8rem;
             line-height: 2.8rem;
             color: #453C3C;
+            @media only all and  (max-width: 48em) { 
+                font-size: 2.1rem;
+            }
             &::placeholder {
                 transition: all 0.1s;
                 color:#A09C9C;
@@ -282,6 +294,28 @@
 
     .button-all {
         width: 20.9rem;
+    }
+
+    &__form-inner-error {
+        position: absolute;
+        font-size: 1.2rem;
+        font-weight: 400;
+        line-height: 1.2rem;
+        text-align: left;
+        color: #E03D3D;
+        padding-left: 2rem;
+        padding-top: 0.1rem;
+        display: none;
+        @media only all and  (max-width: 48em) { 
+            font-size: 2.1rem;
+            padding-top: 1rem;
+            padding-left: 4rem;
+        }
+
+    }
+
+    &__form-inner-error.active {
+        display: block;
     }
 
 }
